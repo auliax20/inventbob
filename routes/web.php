@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Livewire\Kategori;
+use App\Http\Livewire\Karcis;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +22,5 @@ Route::get('/', function () {
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+Route::get('kategori', Kategori::class)->middleware(['auth:sanctum'])->name('kategori');
+Route::get('karcis', Karcis::class)->middleware(['auth:sanctum'])->name('karcis');
