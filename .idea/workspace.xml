@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca1cae24-bc78-4ee2-9c5d-997c2265090e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inventorybob.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inventorybob.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/navigation-menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navigation-menu.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Karcis.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Karcis.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Karcis.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Karcis.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_07_080158_create_karcis_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_07_080158_create_karcis_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/karcis.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/karcis.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +16,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="EditorConfigPreviewManager">
+    <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/database/migrations/2021_04_07_080158_create_karcis_table.php" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -178,6 +182,8 @@
       <workItem from="1616644727134" duration="17000" />
       <workItem from="1617674294788" duration="2996000" />
       <workItem from="1617762724342" duration="7399000" />
+      <workItem from="1617847288872" duration="1934000" />
+      <workItem from="1618367613200" duration="3045000" />
     </task>
     <servers />
   </component>

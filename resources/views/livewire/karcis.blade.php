@@ -15,25 +15,31 @@
                 </div>
             @endif
 
-            <button wire:click="create()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-3">Tambah Kategori</button>
+            <button wire:click="create()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-3">Tambah Karcis</button>
 
             @if($isModal)
-                @include('livewire.createKategori')
+                @include('livewire.createKarcis')
             @endif
 
             <table class="table-fixed w-full">
                 <thead>
                 <tr class="bg-gray-100">
-                    <th class="px-4 py-2">Kode Kategori</th>
-                    <th class="px-4 py-2">Nama Kategori</th>
+                    <th class="px-4 py-2">Kategori</th>
+                    <th class="px-4 py-2">Nama Karcis</th>
+                    <th class="px-4 py-2">Warna</th>
+                    <th class="px-4 py-2">Isi</th>
+                    <th class="px-4 py-2">Nomor Seri</th>
                     <th class="px-4 py-2">Action</th>
                 </tr>
                 </thead>
                 <tbody>
-                @forelse($kategori as $row)
+                @forelse($karcis as $row)
                     <tr>
-                        <td class="border px-4 py-2">{{ $row->kode }}</td>
+                        <td class="border px-4 py-2">{{ $row->kategori_id }}</td>
                         <td class="border px-4 py-2">{{ $row->nama }}</td>
+                        <td class="border px-4 py-2">{{ $row->warna }}</td>
+                        <td class="border px-4 py-2">{{ $row->isi }}</td>
+                        <td class="border px-4 py-2">{{ $row->no_seri }}</td>
                         <td class="border px-4 py-2">
                             <button wire:click="edit({{ $row->id }})" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Edit</button>
                             <button wire:click="delete({{ $row->id }})" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Hapus</button>
@@ -41,7 +47,7 @@
                     </tr>
                 @empty
                     <tr>
-                        <td class="border px-4 py-2 text-center" colspan="3">Tidak ada data</td>
+                        <td class="border px-4 py-2 text-center" colspan="6">Tidak ada data</td>
                     </tr>
                 @endforelse
                 </tbody>
