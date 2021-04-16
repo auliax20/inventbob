@@ -35,7 +35,7 @@
                 <tbody>
                 @forelse($karcis as $row)
                     <tr>
-                        <td class="border px-4 py-2">{{ $row->kategori_id }}</td>
+                        <td class="border px-4 py-2">{{ $row->kategori->nama }}</td>
                         <td class="border px-4 py-2">{{ $row->nama }}</td>
                         <td class="border px-4 py-2">{{ $row->warna }}</td>
                         <td class="border px-4 py-2">{{ $row->isi }}</td>

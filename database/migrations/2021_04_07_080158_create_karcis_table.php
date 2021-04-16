@@ -15,12 +15,14 @@ class CreateKarcisTable extends Migration
     {
         Schema::create('karcis', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('karcis_id');
+            $table->unsignedBigInteger('kategori_id');
             $table->string('nama');
             $table->string('warna');
             $table->string('isi');
             $table->string('no_seri');
             $table->timestamps();
+
+            $table->foreign('kategori_id')->references('id')->on('kategori');
         });
     }
 

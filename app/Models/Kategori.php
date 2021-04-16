@@ -10,4 +10,9 @@ class Kategori extends Model
     use HasFactory;
     protected $table = 'kategori';
     protected $fillable = ['kode', 'nama'];
+
+    public function search($searchKey){
+        return self::where('kode', 'LIKE', '%' . $searchKey . '%')
+            ->orWhere('nama', 'LIKE', '%' . $searchKey . '%');
+    }
 }

@@ -9,7 +9,7 @@ class Karcis extends Model
 {
     use HasFactory;
     protected $table = 'karcis';
-    protected $fillable = ['karcis_id', 'nama', 'warna', 'isi', 'no_seri'];
+    protected $fillable = ['nama', 'warna', 'isi', 'no_seri', 'kategori_id'];
 
     public function kategori(){
         return $this->belongsTo(Kategori::class, 'kategori_id', 'id');

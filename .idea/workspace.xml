@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Karcis.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Karcis.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Karcis.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Karcis.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Kategori.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Kategori.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_07_080158_create_karcis_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_07_080158_create_karcis_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/livewire/karcis.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/karcis.blade.php" afterDir="false" />
     </list>
@@ -23,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="composer.json" />
         <option value="Blade" />
       </list>
     </option>
@@ -183,12 +185,27 @@
       <workItem from="1617674294788" duration="2996000" />
       <workItem from="1617762724342" duration="7399000" />
       <workItem from="1617847288872" duration="1934000" />
-      <workItem from="1618367613200" duration="3045000" />
+      <workItem from="1618367613200" duration="3364000" />
+      <workItem from="1618457435344" duration="2400000" />
+      <workItem from="1618538628466" duration="4491000" />
+      <workItem from="1618546814132" duration="696000" />
     </task>
+    <task id="LOCAL-00001" summary="karcis">
+      <created>1618385461604</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618385461604</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="karcis" />
+    <option name="LAST_COMMIT_MESSAGE" value="karcis" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
