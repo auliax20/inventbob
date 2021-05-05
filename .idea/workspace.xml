@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ca1cae24-bc78-4ee2-9c5d-997c2265090e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Karcis.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Karcis.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Karcis.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Karcis.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Kategori.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Kategori.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_07_080158_create_karcis_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_07_080158_create_karcis_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/karcis.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/karcis.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/navigation-menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navigation-menu.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,6 +159,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -188,7 +185,9 @@
       <workItem from="1618367613200" duration="3364000" />
       <workItem from="1618457435344" duration="2400000" />
       <workItem from="1618538628466" duration="4491000" />
-      <workItem from="1618546814132" duration="696000" />
+      <workItem from="1618546814132" duration="1386000" />
+      <workItem from="1619153448694" duration="984000" />
+      <workItem from="1620181945806" duration="5225000" />
     </task>
     <task id="LOCAL-00001" summary="karcis">
       <created>1618385461604</created>
@@ -197,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618385461604</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tambah karcis">
+      <created>1618547670214</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618547670214</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +211,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="karcis" />
-    <option name="LAST_COMMIT_MESSAGE" value="karcis" />
+    <MESSAGE value="tambah karcis" />
+    <option name="LAST_COMMIT_MESSAGE" value="tambah karcis" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
